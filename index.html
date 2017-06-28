@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+  <h1>Computer Quotes!</h1>
+  <blockquote>
+    <p id="quoteID" value="WOOHOO"></p>
+    <footer id="authorID"></footer>
+  </blockquote>
+  <div class = "row">
+    <div class="col-xs-4">
+      <div id="twtbox"></div>
+      <button id="buttonID" class="btn btn-primary">New Quote</button>
+  <!--orginalbutn-->
+    </div>
+    <div class="col-xs-4">
+    </div>
+    <div class="col-xs-4">
+      
+   
+      <!-- THIS IS IMPORTANT LEAVe It here -->
+      <script>
+    window.twttr = (function(d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = {
+            _e: [],
+            ready: function(f) {
+                t._e.push(f)
+            }
+        });
+    }(document, "script", "twitter-wjs"));
+</script>
+      <!-- DO NOT MODIFY TOP -->
+      
+
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

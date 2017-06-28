@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Caudex');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+
+body {
+  background-image: url("http://www.walldevil.com/wallpapers/a77/backgrounds-computer-cloud-solid-wallpapers.jpg");
+}
+#authorID {
+  color: black;
+}
+.container {
+  margin-top: 50px;
+  width: 500px;
+  height: auto;
+  background-color: white;
+}
+#buttonID {
+  margin: 5px;
+}
+#buttonID2 {
+  margin: 20px;
+}
+p {
+  font-family: 'Caudex', serif;
+  font-size: 30px;
+  color: #666699;
+}
+h1 {
+  font-family: 'Gochi Hand', cursive;
+  color: blue;
+}
+#twtbox {
+  padding-left: 12px
+}
